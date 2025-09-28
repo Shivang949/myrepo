@@ -15,21 +15,29 @@
 
 n = 5
 
-# Right angle triangle
+# # Right angle triangle
 
-for i in range(1,n+1):
-    for j in range(1, i+1):
-        print('*', end=" ")
+# for i in range(1,n+1):
+#     for j in range(1, i+1):
+#         print('*', end=" ")
+#     print(" ")
+
+# # Inverse right angle triangle
+
+# for i in range(n, 0, -1):
+#     for j in range(i, 0, -1):
+#         print('*', end=" ")
+#     print(" ")
+
+# Square pattern
+
+for i in range(1, n+1):
+    for j in range(1, n+1):
+        if(i == 1 or i == n or j == 1 or j ==n):
+            print('*', end=" ")
+        else:
+            print(" ", end=" ")
     print(" ")
-
-# Inverse right angle triangle
-
-for i in range(n, 0, -1):
-    for j in range(i, 0, -1):
-        print('*', end=" ")
-    print(" ")
-
-# pyramid pattern
 
 
     
